@@ -1,27 +1,79 @@
 ---
-theme: the-unnamed
-layout: cover
-class: text-center
-transition: slide-left
+theme: penguin
+layout: intro
+colorSchema: 'auto'
 title: Vike
 info: |
   ## Vike
   SSR нормального человека.
 mdc: true
 themeConfig:
-  cover-headingBg: "#F7DF1F"
-  cover-background: "#000"
-  default-background: "#000"
+  eventLogo: 'https://moscowjs.org/static/7dc6bd1b6bd37e9860d68da1e697bae7/d966b/logo.png'
+  eventUrl: 'https://moscowjs.org/'
+htmlAttrs:
+  dir: ltr
+  lang: ru
+drawings:
+  persist: false
+presenter: false
 ---
 
-# Vike
+<style>
+    html.dark .prose {
+        --un-prose-body: white;
+    }
+</style>
 
+# Vike
 Next-gen framework architecture
 
-<div class="abs-br m-6 text-lg">
-  {{ $nav.currentPage }}
-</div>
 
 ---
 src: ./pages/01-about-me.md
+---
+
+---
+src: ./pages/02-nextjs.md
+---
+
+---
+src: ./pages/03-creator.md
+---
+
+---
+src: ./pages/04-pronounce.md
+---
+
+---
+src: ./pages/05-vite-ssr-plugin.md
+---
+
+---
+src: ./pages/06-vite-ssr-plugin-2.md
+---
+
+---
+src: ./pages/07-introduce-vike.md
+---
+
+---
+src: ./pages/08-bati.md
+---
+
+---
+src: ./pages/09-project-base.md
+---
+
+---
+src: ./pages/10-vike-handler.md
+---
+
+---
+src: ./pages/11-start-app.md
+---
+---
+src: ./pages/12-started-app.md
+---
+---
+src: ./pages/13-project-structure.md
 ---

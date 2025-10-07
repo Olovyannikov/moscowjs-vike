@@ -1,15 +1,22 @@
 ---
-layout: about-me
-helloMsg: Привет!
-name: Илья
-imageSrc: https://placehold.jp/150x150.png
-position: left 
-job: MoscowJS
-social1: "- Создаю сообщество"
-social2: "- Инвестирую в Open Source ☄️"
-social3: "- Дома хожу без кепки"
+layout: presenter
+presenterImage: ../assets/holy_2025.jpg
+eventUrl: 'https://moscowjs.org/'
 ---
 
-<div class="abs-br m-6 text-lg">
-  {{ $nav.currentPage }}
-</div>
+<style>
+    ul {
+        margin-top: 2rem;
+        list-style-type: square !important;
+    }
+</style>   
+
+# Привет!
+## Оловянников Илья
+
+- Создаю сообщество
+- Инвестирую в Open Source ☄️
+- Люблю хороший DX
+
+<Counter/>
+
