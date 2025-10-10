@@ -1,7 +1,7 @@
 import { usePageContext } from "vike-react/usePageContext";
 
 export default function Page() {
-  const { is404 } = usePageContext();
+  const { is404, abortReason, abortStatusCode } = usePageContext();
   if (is404) {
     return (
       <>
@@ -10,6 +10,16 @@ export default function Page() {
       </>
     );
   }
+
+  if (abortStatusCode === 403) {
+    return (
+      <>
+        <h1>Access Denied</h1>
+        <p>{abortReason?.toString()}</p>
+      </>
+    );
+  }
+
   return (
     <>
       <h1>Internal Error</h1>

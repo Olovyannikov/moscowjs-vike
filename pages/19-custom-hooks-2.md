@@ -6,7 +6,7 @@
     }
 }
 </style>
-```ts {*|7|9-12|13-16|*}{startLine:4,lines:true}
+```ts {*|9|10-15}{startLine:4,lines:true}
 // vike.d.ts
 
 declare global {
