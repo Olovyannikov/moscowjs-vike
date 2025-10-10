@@ -1,15 +1,20 @@
-import "@mantine/core/styles.css";
+import { PropsWithChildren } from "react";
 
 import logoUrl from "../assets/logo.svg";
 import { AppShell, Burger, Group, Image, MantineProvider } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import { Link } from "../components/Link";
-import theme from "./theme.js";
+import theme from "./theme";
+import "@/app/styles/index.css";
+import { Notifications } from "@mantine/notifications";
+import { NavigationProgress } from "@mantine/nprogress";
 
-export default function LayoutDefault({ children }: { children: React.ReactNode }) {
+export default function LayoutDefault({ children }: PropsWithChildren) {
   const [opened, { toggle }] = useDisclosure();
   return (
-    <MantineProvider theme={theme}>
+    <MantineProvider theme={theme} defaultColorScheme="auto">
+      <Notifications />
+      <NavigationProgress aria-label="Navigation" color="violet" />
       <AppShell
         header={{ height: 60 }}
         navbar={{ width: 300, breakpoint: "sm", collapsed: { mobile: !opened } }}

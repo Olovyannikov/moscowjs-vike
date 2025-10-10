@@ -7,3 +7,5 @@ caption: 'Starter App'
 # Welcome
 
 !['Browser App'](../assets/my-vike-app.png)
+
+<Counter/>

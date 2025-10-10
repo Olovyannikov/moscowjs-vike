@@ -1,6 +1,7 @@
-import type { OnPageTransitionStartAsync } from "vike/types";
+import { nprogress } from '@mantine/nprogress';
 
-export const onPageTransitionStart: OnPageTransitionStartAsync = async () => {
+export const onPageTransitionStart = async () => {
   console.log("Page transition start");
   document.querySelector("body")?.classList.add("page-is-transitioning");
+  nprogress.start();
 };

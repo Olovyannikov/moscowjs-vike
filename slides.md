@@ -77,3 +77,21 @@ src: ./pages/12-started-app.md
 ---
 src: ./pages/13-project-structure.md
 ---
+---
+src: ./pages/14-config.md
+---
+---
+src: ./pages/15-config-2.md
+---
+---
+src: ./pages/16-what-else.md
+---
+---
+src: ./pages/17-custom-hooks.md
+---
+---
+src: ./pages/18-custom-hooks-1.md
+---
+---
+src: ./pages/19-custom-hooks-2.md
+---

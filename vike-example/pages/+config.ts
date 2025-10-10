@@ -1,7 +1,7 @@
 import type { Config } from "vike/types";
 import vikeReact from "vike-react/config";
 import RootLayout from "../layouts/LayoutDefault";
-import HeadDefault from "./+Head";
+import HeadDefault from "../layouts/HeadDefault";
 
 // Default config (can be overridden by pages)
 export default {
@@ -17,14 +17,14 @@ export default {
   Head: HeadDefault,
 
   // meta info
-  passToClient: ['scopeValues', 'device', 'isMobile'],
+  passToClient: ["scopeValues", "device", "isMobile"],
   meta: {
     // Event - fires on the server side when the page gets initiated
-    pageInitiated: {
+    pageInitiatedOnServer: {
       env: { client: false, server: true },
     },
-    // Event - fires on the client side when the page started
-    pageStarted: {
+    // Event - fires on client side when the page started
+    pageStartedOnClient: {
       env: { client: true, server: false },
     },
   },
@@ -33,5 +33,4 @@ export default {
   lang: "en",
   title: "My Vike App",
   description: "Demo showcasing Vike",
-
 } satisfies Config;

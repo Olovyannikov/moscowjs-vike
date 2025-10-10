@@ -28,3 +28,5 @@ layout: section
 
 <v-click>
 </v-click>
+
+<Counter/>
