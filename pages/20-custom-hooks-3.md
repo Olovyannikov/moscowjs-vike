@@ -1,10 +1,10 @@
 ---
 layout: text-image
-media: ../assets/20-custom-hooks.png
+media: ../assets/onbeforerender.png
 ---
 
 <style>
-    [data-slidev-no="21"] .grid {
+    [data-slidev-no="24"] .grid {
         display:flex !important;
         div.prose {
             padding-right: 0!important;
@@ -14,7 +14,7 @@ media: ../assets/20-custom-hooks.png
 
 # Кастомные хуки
 <style>
-[data-slidev-no="22"] {
+[data-slidev-no="24"] {
     .slidev-layout .slidev-code-wrapper {
         max-width: 100%;
     }
@@ -22,27 +22,14 @@ media: ../assets/20-custom-hooks.png
 </style>
 <div v-click>
 
-```ts {all}{startLine:1,lines:true}
-import { PageContextServer } from "vike/types";
-
-export const pageInitiatedOnServer = 
-  (ctx?: PageContextServer) => {
-    console.log(
-        "Page initiated on server,", 
-        "isMobile:", ctx?.isMobile
-    );
-};
-```
-</div>
-
-
-<div v-click>
 ```ts
-// server logs:
+export async function onBeforeRender(pageContext: PageContext) {
+  const { pageInitiatedOnServer } = pageContext.config;
 
-7:08:20 PM [vike][request(2)] HTTP request: /star-wars
-Page initiated on server, isMobile: false
+  pageInitiatedOnServer?.(pageContext);
+}
 ```
+
 </div>
 
 

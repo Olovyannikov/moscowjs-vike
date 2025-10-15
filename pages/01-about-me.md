@@ -5,7 +5,7 @@ eventUrl: 'https://moscowjs.org/'
 ---
 
 <style>
-    ul {
+    [data-slidev-no="2"] ul {
         margin-top: 2rem;
         list-style-type: square !important;
     }

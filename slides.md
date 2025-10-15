@@ -45,6 +45,10 @@ src: ./pages/04-pronounce.md
 ---
 
 ---
+src: ./pages/04-what-vike-is.md
+---
+
+---
 src: ./pages/05-vite-ssr-plugin.md
 ---
 
@@ -58,6 +62,10 @@ src: ./pages/07-introduce-vike.md
 
 ---
 src: ./pages/08-bati.md
+---
+
+---
+src: ./pages/09-begin.md
 ---
 
 ---
@@ -84,6 +92,9 @@ src: ./pages/14-config.md
 src: ./pages/15-config-2.md
 ---
 ---
+src: ./pages/15-config-3.md
+---
+---
 src: ./pages/16-what-else.md
 ---
 ---
@@ -97,4 +108,32 @@ src: ./pages/19-custom-hooks-2.md
 ---
 ---
 src: ./pages/20-custom-hooks-3.md
+---
+---
+src: ./pages/20-custom-hooks-4.md
+---
+---
+src: ./pages/21-data-fetching.md
+---
+---
+src: ./pages/22-data-fetching-1.md
+---
+---
+src: ./pages/23-data-fetching-2.md
+---
+---
+src: ./pages/24-routing.md
+---
+
+---
+src: ./pages/25-nextjs.md
+---
+---
+src: ./pages/026-pricing.md
+---
+---
+src: ./pages/027-outro.md
+---
+---
+src: ./pages/028-contacts.md
 ---

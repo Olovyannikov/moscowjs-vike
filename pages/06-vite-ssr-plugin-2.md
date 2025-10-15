@@ -5,12 +5,13 @@ caption: 'vite-plugin-ssr vs Next.js 14'
 ---
 
 <style>
-[data-slidev-no="7"] {
+[data-slidev-no="8"] {
 img {
     width: 85%;
 }
 }
 </style>
+
 
 # Vite Plugin SSR 
 

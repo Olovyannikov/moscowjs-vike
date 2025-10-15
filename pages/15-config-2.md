@@ -1,8 +1,6 @@
----
-layout: section
----
+
 <style>
-[data-slidev-no="16"] {
+[data-slidev-no="18"] {
     .slidev-layout .slidev-code-wrapper {
         max-width: 100%;
     }
