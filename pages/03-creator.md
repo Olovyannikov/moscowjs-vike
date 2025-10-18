@@ -16,4 +16,3 @@ reverse: true
     </ul>
 </div>
 
-<Counter/>

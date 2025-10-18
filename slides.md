@@ -45,6 +45,17 @@ src: ./pages/04-pronounce.md
 ---
 
 ---
+src: ./pages/04-plan.md
+---
+
+---
+src: ./pages/04-meta.md
+---
+---
+src: ./pages/04-meta-2.md
+---
+
+---
 src: ./pages/04-what-vike-is.md
 ---
 
@@ -69,11 +80,27 @@ src: ./pages/09-begin.md
 ---
 
 ---
+src: ./pages/09-begin-2.md
+---
+
+---
+src: ./pages/09-project-base-0.md
+---
+
+---
+src: ./pages/09-project-base-1.md
+---
+
+---
 src: ./pages/09-project-base.md
 ---
 
 ---
 src: ./pages/10-vike-handler.md
+---
+
+---
+src: ./pages/10-vike-handler-context.md
 ---
 
 ---

@@ -45,4 +45,3 @@ td {
 </v-click>
 
 </v-clicks>
-<Counter/>

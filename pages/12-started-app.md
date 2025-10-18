@@ -8,4 +8,3 @@ caption: 'Starter App'
 
 !['Browser App'](../assets/my-vike-app.png)
 
-<Counter/>

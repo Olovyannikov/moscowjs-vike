@@ -1,14 +1,28 @@
 ---
 layout: text-image
 media: '../assets/compare-next-vite-ssr.png'
-caption: 'vite-plugin-ssr vs Next.js 14'
 ---
 
 <style>
-[data-slidev-no="8"] {
-img {
-    width: 85%;
+[data-slidev-no="10"] {
+    .prose.pr-16 {
+        padding-right: 0;
+    }
 }
+
+[data-slidev-no="11"] {
+    .prose.pr-16 {
+        padding-right: 0;
+    }
+    .grid.gap-8 {
+        gap: 0;
+        grid-template-columns: 1.1fr 1fr;
+    }
+
+    img {
+        width: 85%;
+        margin-left: auto;
+    }
 }
 </style>
 
@@ -19,4 +33,3 @@ img {
 - Инструмент архитектурного контроля;
 - Оказался в разы быстрее по сравнению с Next.js 14;
 
-<Counter/>

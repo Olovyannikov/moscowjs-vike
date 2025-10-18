@@ -4,7 +4,7 @@ media: ../assets/onbeforerender.png
 ---
 
 <style>
-    [data-slidev-no="24"] .grid {
+    [data-slidev-no="31"] .grid {
         display:flex !important;
         div.prose {
             padding-right: 0!important;
@@ -14,7 +14,7 @@ media: ../assets/onbeforerender.png
 
 # Кастомные хуки
 <style>
-[data-slidev-no="24"] {
+[data-slidev-no="31"] {
     .slidev-layout .slidev-code-wrapper {
         max-width: 100%;
     }
@@ -33,4 +33,3 @@ export async function onBeforeRender(pageContext: PageContext) {
 </div>
 
 
-<Counter/>

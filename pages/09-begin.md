@@ -3,14 +3,21 @@ layout: center
 ---
 
 <style>
-[data-slidev-no="11"] {
+[data-slidev-no="14"] {
+
+
     h1 {
         text-align:center;
-font-size: 4em;
+        font-size: 4em;
+        margin-bottom: 70px;
+    }
+
+    .slidev-layout .slidev-code-wrapper  {
+        max-width: 100%;
     }
 
     code {
-        font-size: 2em !important;
+        font-size: 1.2em !important;
     }
 }
 </style>
@@ -18,7 +25,6 @@ font-size: 4em;
 # Begin
 
 ```shell
-npm create vike@latest --- --react
+pnpm create vike@latest --react --mantine --express --eslint
 ```
 
-<Counter/>

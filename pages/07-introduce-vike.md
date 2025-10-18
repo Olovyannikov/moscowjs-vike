@@ -1,5 +1,5 @@
 <style>
-    div:has(> h1) {
+    [data-slidev-no="12"] div:has(> h1) {
         position: static !important;
     }
 </style>
@@ -23,4 +23,4 @@
 <v-click>
 </v-click>
 
-<Counter/>
+

@@ -1,14 +1,14 @@
 # Запрос данных
 
 <style>
-[data-slidev-no="23"] {
+[data-slidev-no="35"] {
     .slidev-layout .slidev-code-wrapper {
         max-width: 100%;
     }
 }
 </style>
 
-```tsx {*|14-15|18-19|20-23|25-30}{startLine: 12, lines: true}
+```tsx {*|14-15|18-19|20-23|*}{startLine: 12, lines: true}
 // /pages/movies/+Page.ts
 // Environment: server & client
 
@@ -25,4 +25,3 @@ const Page = () => {
 }
 ```
 
-<Counter/>

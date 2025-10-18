@@ -18,5 +18,5 @@ eventUrl: 'https://moscowjs.org/'
 - Инвестирую в Open Source ☄️
 - Люблю хороший DX
 
-<Counter/>
+
 

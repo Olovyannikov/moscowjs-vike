@@ -3,7 +3,7 @@ layout: section
 ---
 
 <style>
-[data-slidev-no="12"] {
+[data-slidev-no="21"] {
     .slidev-layout .slidev-code-wrapper {
         max-width: 100%;
     }
@@ -29,4 +29,3 @@ layout: section
 <v-click>
 </v-click>
 
-<Counter/>

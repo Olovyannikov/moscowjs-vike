@@ -13,4 +13,3 @@ media: '../assets/project-structure.png'
 
 </v-clicks>
 
-<Counter/>

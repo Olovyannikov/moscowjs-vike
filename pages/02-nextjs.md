@@ -8,4 +8,3 @@ layout: center
     <b class="block mt-8  text-5xl">Стать лучшей версией себя?</b>
 </div>
 
-<Counter/>

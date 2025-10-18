@@ -1,7 +1,7 @@
 # Запрос данных
 
 <style>
-[data-slidev-no="27"] {
+[data-slidev-no="34"] {
     .slidev-layout .slidev-code-wrapper {
         max-width: 100%;
     }
@@ -30,4 +30,3 @@ export async function data(pageContext) {
 }
 ```
 
-<Counter/>

@@ -1,6 +1,6 @@
 
 <style>
-[data-slidev-no="18"] {
+[data-slidev-no="25"] {
     .slidev-layout .slidev-code-wrapper {
         max-width: 100%;
     }
@@ -34,4 +34,3 @@ export const vikeHandler: Get<[], UniversalHandler> = () => async (request, cont
 };
 ```
 
-<Counter/>

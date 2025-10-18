@@ -1,7 +1,7 @@
-# Pricing
+# Relations
 
 <style>
-[data-slidev-no="31"],[data-slidev-no="32"] {
+[data-slidev-no="38"],[data-slidev-no="39"] {
     ul {
         font-size: 2rem !important;
 
@@ -17,9 +17,7 @@
 - Пока полностью свободно;
 - Нет спонсоров (Vercel, Meta etc);
 - Нет телеметрии и не будет;
-- Есть планы на Open Source Pricing для компаний;
-- Полностью статическая проверка;
+- Есть планы на Open Source Pricing для компаний.
 
 </v-clicks>
 
-<Counter/>

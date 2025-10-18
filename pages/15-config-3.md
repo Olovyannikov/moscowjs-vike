@@ -1,11 +1,12 @@
 
 <style>
-[data-slidev-no="19"] {
+[data-slidev-no="26"] {
     .slidev-layout .slidev-code-wrapper {
         max-width: 100%;
     }
 }
 </style>
+
 
 # passToClient
 
@@ -21,4 +22,6 @@ export default function IndexPage() {
 };
 ```
 
-<Counter/>
+<div class="absolute right-[-50px] bottom-[-260px]">
+    
+</div>

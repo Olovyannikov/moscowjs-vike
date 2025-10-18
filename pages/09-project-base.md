@@ -3,7 +3,7 @@ layout: section
 ---
 
 <style>
-[data-slidev-no="10"] {
+[data-slidev-no="18"] {
     .slidev-layout .slidev-code-wrapper {
         max-width: 100%;
     }
@@ -36,4 +36,3 @@ async function startServer() {
 export default (await startServer());
 ```
 
-<Counter/>

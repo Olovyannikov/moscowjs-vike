@@ -12,4 +12,3 @@
 - Кастомный хук, например `+pageInitiatedOnServer`;
 - Готовые экстеншены типа `vike-react-query`.
 
-<Counter/>

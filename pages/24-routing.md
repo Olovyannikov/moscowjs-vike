@@ -23,7 +23,7 @@
 </v-click>
 <v-click>
 
-- Можно переопределять `route string` или `route matching function`;
+- Можно переопределять `route string` <br/> или `route matching function`;
 
 </v-click>
 <v-click>
@@ -41,4 +41,4 @@
 </div>
 </v-clicks>
 </div>
-<Counter/>
+

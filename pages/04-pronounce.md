@@ -4,7 +4,7 @@ layout: text-window
 
 # Вайк? Вик? Вике?
 
-<Counter/>
+
 <div class="flex gap-col-3">
     <div>
         <img src="https://cdn-icons-png.flaticon.com/512/6541/6541764.png" style="height:100px;width:100px;">

@@ -1,6 +1,6 @@
 # Кастомные хуки
 <style>
-[data-slidev-no="22"] {
+[data-slidev-no="29"] {
     .slidev-layout .slidev-code-wrapper {
         max-width: 100%;
     }
@@ -25,4 +25,3 @@ export default {
 ```
 
 
-<Counter/>

@@ -4,7 +4,7 @@ media: ../assets/20-custom-hooks.png
 ---
 
 <style>
-    [data-slidev-no="24"] .grid, [data-slidev-no="25"] .grid {
+    [data-slidev-no="32"] .grid, [data-slidev-no="33"] .grid {
         display:flex !important;
         height: 100%;
         div.prose {
@@ -15,7 +15,7 @@ media: ../assets/20-custom-hooks.png
 
 # Кастомные хуки
 <style>
-[data-slidev-no="24"] {
+[data-slidev-no="33"] {
     .slidev-layout .slidev-code-wrapper {
         max-width: 100%;
         height: 100%;
@@ -59,4 +59,3 @@ Page initiated on server, isMobile: false
 </div>
 
 
-<Counter/>

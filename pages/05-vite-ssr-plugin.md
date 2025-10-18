@@ -16,4 +16,3 @@ caption: 'vite-plugin-ssr'
 
 </v-click>
 
-<Counter/>

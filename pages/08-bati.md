@@ -5,15 +5,30 @@ caption: 'https://batijs.dev/'
 ---
 
 <style>
-[data-slidev-no="10"] {
-figure {
-width: 120%;
-    margin-left: -10%;
-}
+[data-slidev-no="13"] {
+    h1, h2 {
+        margin: 0;
+    color: rgb(52, 211, 153, var(--un-text-opacity));
+    }
+
+    .grid {
+        grid-template-columns: 1.1fr 1fr;
+        gap: 0;
+    }
+
+    .prose.pr-16 {
+        padding-right: 0;
+    }
+
+    figure {
+        width: 120%;
+        margin-left: -10%;
+    }
 }
 </style>
 
-# Bâti (фр. "основа / каркас")
+# Bâti 
+## (фр. "основа / каркас")
 
 <v-clicks>
 
@@ -27,4 +42,3 @@ width: 120%;
 
 </v-click>
 
-<Counter/>
