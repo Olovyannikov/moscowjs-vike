@@ -6,6 +6,12 @@
     grid-template-columns: 1.5fr 1fr;
     gap: 1rem;
 }
+
+[data-slidev-no="24"] span:first-child.highlighted:has(+ .dishonored) span {
+    color: black !important;
+    font-weight: 600;
+    background-color: #E3F9B4;
+}
 </style>
 
 

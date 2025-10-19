@@ -14,6 +14,9 @@ declare global {
   namespace Vike {
     interface PageContext {
       isMobile: boolean;
+      user: {
+        isAdmin: boolean;
+      };
       config: {
         /** Page init event - server side */
         pageInitiatedOnServer?: <T>(ctx: PageContextServer<T>) => void;

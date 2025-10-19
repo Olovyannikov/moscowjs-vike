@@ -12,7 +12,7 @@ media: '../assets/compare-next-vite-ssr.png'
 
 [data-slidev-no="11"] {
     .prose.pr-16 {
-        padding-right: 0;
+        padding-right: 2rem;
     }
     .grid.gap-8 {
         gap: 0;

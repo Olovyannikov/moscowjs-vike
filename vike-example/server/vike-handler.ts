@@ -11,6 +11,9 @@ export const vikeHandler: Get<[], UniversalHandler> = () => async (request, cont
     urlOriginal: request.url,
     headersOriginal: request.headers,
     isMobile: false,
+    user: {
+      isAdmin: true,
+    },
   };
   const pageContext = await renderPage(pageContextInit);
   const response = pageContext.httpResponse;
