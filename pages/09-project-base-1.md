@@ -2,6 +2,15 @@
 layout: center
 ---
 
+<style>
+[data-slidev-no="17"] {
+    .slidev-code-wrapper {
+        width: fit-content;
+        max-width: 100%;
+    }
+}
+</style>
+
 # App Starter
 
 ```json

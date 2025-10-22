@@ -36,7 +36,7 @@
 
 <div v-click.at="1" class="routing__right">
     <img  v-click.at="1" v-click.hide="2" src="../assets/routing-1.png" />
-    <img  v-click.at="2" v-click.hide="3" src="../assets/catch-route.png" />
+    <img style="width: 800px!important; right: 32px; bottom: -260px; position: absolute;" v-click.at="2" v-click.hide="3" src="../assets/route-matching.png" />
     <img  v-click.at="3" src="../assets/react-router.png" />
 </div>
 </v-clicks>

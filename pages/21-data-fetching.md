@@ -1,7 +1,7 @@
 # Запрос данных
 
 <style>
-[data-slidev-no="26"] {
+[data-slidev-no="33"] {
     ul, code {
         font-size: 1.5rem !important;
     }
